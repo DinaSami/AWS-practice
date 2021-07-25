@@ -1,7 +1,7 @@
 # cloud-server
 
 
-### Heroku applications :
+### AWS deployment :
 
 [AWS-link](http://awspractice-env.eba-k2pdrfrb.us-east-1.elasticbeanstalk.com/)
 
