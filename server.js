@@ -5,6 +5,10 @@ const app = express();
 const notFoundHandler = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
 
+app.get('/', (req, res) => {
+  res.send('Hello World!!!!');
+});
+
 app.get('/data', (req, res) => {
   res.send('The server is visible');
 });
